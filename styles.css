@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f0f8ff; /* Light blue background */
+  background-color: #6eaae2; /* Light blue background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,8 +11,11 @@ body {
 
 .container {
   text-align: center;
+  width: 80%; /* Set container width to 80% of the page size */
+  max-width: 600px; /* Limit container width to 600px */
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  margin: 0 auto; /* Center the container */
+  background-color: rgba(200, 230, 255, 0.8); /* Light bluish transparent background */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
 }
@@ -28,18 +31,21 @@ body {
 
 .city-input label {
   margin-right: 10px; /* Add space between the label and the input field */
+  font-weight: bold; /* Make label text bold */
+  font-size: 24px;
 }
 
 .city-input input[type="text"] {
-  padding: 10px; /* Increase padding for better appearance */
-  border: 1px solid #ccc; /* Add a border to the input field */
-  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Increase padding for better appearance */
+  border: 2px solid #ccc; /* Add a border to the input field */
+  border-radius: 10px; /* Rounded corners */
+  width: 60%; /* Set input width to 70% of the container */
 }
 
 .city-input button {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #4CAF50;
+  padding: 20px; /* Add padding from all sides */
+  font-size: 24px;
+  background-color: rgba(255, 0, 0, 0.6); /* Red transparent background */
   color: white;
   border: none;
   border-radius: 5px;
@@ -48,7 +54,7 @@ body {
 }
 
 .city-input button:hover {
-  background-color: #45a049;
+  background-color: rgba(255, 0, 0, 0.8); /* Darker red transparent background on hover */
 }
 
 .weather-buttons {
@@ -56,10 +62,10 @@ body {
 }
 
 .weather-buttons button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  font-size: 16px;
-  background-color: #4CAF50;
+  padding: 22px; /* Add padding from all sides */
+  margin: 0 15px;
+  font-size: 24px;
+  background-color: rgba(0, 0, 255, 0.6); /* Blueish transparent background */
   color: white;
   border: none;
   border-radius: 5px;
@@ -68,9 +74,18 @@ body {
 }
 
 .weather-buttons button:hover {
-  background-color: #45a049;
+  background-color: rgba(0, 0, 255, 0.8); /* Darker blue transparent background on hover */
 }
 
 .weather-info {
   margin-top: 20px;
+  color: #333;
+}
+
+.weather-info p {
+  display: inline-block;
+  margin: 0;
+  padding: 10px; /* Add padding for better appearance */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 5px; /* Rounded corners */
 }
