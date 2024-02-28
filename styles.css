@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.heading {
+  color: #333;
+  margin-bottom: 20px; /* Add space below the heading */
+}
+
+.city-input {
+  margin-bottom: 20px; /* Add space below the input field */
+}
+
+.city-input label {
+  margin-right: 10px; /* Add space between the label and the input field */
+}
+
+.city-input input[type="text"] {
+  padding: 10px; /* Increase padding for better appearance */
+  border: 1px solid #ccc; /* Add a border to the input field */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.city-input button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect on hover */
+}
+
+.city-input button:hover {
+  background-color: #45a049;
+}
+
+.weather-buttons {
+  margin-bottom: 20px;
+}
+
+.weather-buttons button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition effect on hover */
+}
+
+.weather-buttons button:hover {
+  background-color: #45a049;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
